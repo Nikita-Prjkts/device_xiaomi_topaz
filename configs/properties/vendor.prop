@@ -154,6 +154,10 @@ drm.service.enabled=true
 
 # Display
 debug.egl.hw=0
+debug.sf.latch_unsignaled=1
+debug.sf.auto_latch_unsignaled=0
+debug.sdm.support_writeback=0
+debug.sf.disable_client_composition_cache=1
 debug.mdpcomp.logs=0
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_hwc_vds=0
@@ -200,6 +204,11 @@ vendor.display.use_smooth_motion=1
 vendor.display.vds_allow_hwc=1
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.secure_preview_buffer_format=420_sp
+vendor.display.qdcm.disable_factory_mode=1
+vendor.display.qdcm.mode_combine=1
+
+# Refresh Rate
+debug.sf.frame_rate_multiple_threshold=120
 
 # Displayfeature
 ro.vendor.all_modes.colorpick_adjust=true
@@ -229,6 +238,7 @@ ro.opengles.version=196610
 debug.sf.enable_gl_backpressure=false
 debug.hwui.renderer=opengl
 debug.renderengine.backend=gles
+debug.sf.defer_refresh_rate_when_off=1
 persist.sys.sf.native_mode=2
 
 # HWUI
@@ -242,6 +252,7 @@ ro.control_privapp_permissions=enforce
 
 # Media
 vendor.mm.enable.qcom_parser=16711663
+persist.mm.enable.prefetch=true
 
 # Netflix
 vendor.netflix.bsp_rev=Q6115-31409-1
@@ -257,6 +268,8 @@ ro.vendor.qspm.enable=true
 vendor.pasr.activemode.enabled=true
 vendor.perf.framepacing.enable=1
 vendor.power.pasr.enabled=true
+vendor.power.pasr.enabled=false
+vendor.perf.framepacing.enable=1
 
 # QCOM sys
 persist.vendor.qcomsysd.enabled=1
@@ -275,6 +288,8 @@ persist.vendor.radio.sib16_support=1
 persist.vendor.radio.snapshot_enabled=1
 persist.vendor.radio.snapshot_timer=5
 persist.vendor.rcs.singlereg.feature=1
+persist.vendor.radio.redir_party_num=0
+persist.vendor.radio.add_power_save=1
 
 # Sensors
 persist.vendor.sensors.debug.ssc_qmi_debug=true
