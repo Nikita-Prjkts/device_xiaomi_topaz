@@ -144,3 +144,11 @@ sh_binary {
     src: "bin/vendor_modprobe.sh",
     vendor: true,
 }
+
+# Debug scripts
+prebuilt_etc {
+    name: "logcat.rc",
+    filename: "logcat.rc",
+    src: "etc/logcat.rc",
+    vendor: true,
+}
