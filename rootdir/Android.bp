@@ -145,7 +145,7 @@ sh_binary {
     vendor: true,
 }
 
-# Debug scripts
+// Debug scripts
 prebuilt_etc {
     name: "logcat.rc",
     filename: "logcat.rc",
