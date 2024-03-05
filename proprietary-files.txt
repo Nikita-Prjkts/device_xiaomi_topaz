@@ -192,10 +192,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|8766b54fae1d4a7ae8a1acf333
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|b95ab3719e184eaeffdc4a1f3b7e6e306d9091f6
 vendor/lib64/vendor.qti.hardware.bttpi-V2-ndk.so|e2d81d73fdf039b8e464ef8f2f69fb4d1057c5aa
 
-# Bluetooth from LOS 21 by boedhack99
-vendor/lib64/libbluetooth_audio_session.so|3c04936e83ab0cd80dc5524e669b2e8910556e46
-vendor/lib64/libbluetooth_audio_session_aidl.so|6976ca01221cbe3dfa3e3de6d70867b8acecf8be
-
 # Camera
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libcamxfacialfeatures.so
