@@ -148,7 +148,7 @@ sh_binary {
 // Debug scripts
 prebuilt_etc {
     name: "logcat.rc",
-    filename: "logcat.rc",
+    sub_dir: "init/hw"
     src: "etc/logcat.rc",
     vendor: true,
 }
