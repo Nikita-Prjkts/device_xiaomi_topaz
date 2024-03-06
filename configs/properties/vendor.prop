@@ -235,7 +235,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 debug.sf.enable_gl_backpressure=false
-debug.renderengine.backend=gles
+debug.renderengine.backend=skiaglthreaded
 debug.sf.defer_refresh_rate_when_off=1
 persist.sys.sf.native_mode=2
 
